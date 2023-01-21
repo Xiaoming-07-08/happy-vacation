@@ -1,0 +1,68 @@
+/*
+* @Author: name
+* @Date:   2021-06-14 23:15:26
+* @Last Modified by:   name
+* @Last Modified time: 2021-06-14 23:25:46
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+            body{
+                font-size:12px;
+                font-family:"微软雅黑";
+            }
+            .bg{
+                width: 1431px;
+                height: 717px;
+                background: url(../images/注册.jpg);
+                background-size: 100%;
+                position: relative;
+                margin:auto;
+                margin-top:100px;
+            }
+            form{
+                width: 600px;
+                height: 400px;
+                margin: 50px auto;
+                padding-left:30px;
+                position:absolute;
+                left:10%;
+                top:10%;
+            }
+            h2{
+                font-size:25px;
+                margin:16px 0;
+            }
+            p{
+                margin-top:20px;
+            }
+            p span{
+                width: 75px;
+                display:inline-block;
+                text-align:right;
+                padding-right:10px;
+                color:red;
+            }
+            p input{
+                width: 200px;
+                height: 25px;
+                border:1px solid #38a1bf;
+                padding: 2px;
+            }
+            .lucky input{
+                width: 100px;
+                height: 24px;
+            }
+            .btn input{
+                width: 100px;
+                height: 30px;
+                background:#93b518;
+                margin-top:20px;
+                margin-left:75px;
+                border-radius:3px;
+                font-size:18px;
+                color:#fff;
+            }

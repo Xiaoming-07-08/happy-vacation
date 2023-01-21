@@ -1,0 +1,386 @@
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        
+        .logo:hover {
+            animation: move 0.5s infinite linear;
+        }
+        
+        @keyframes move {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-15px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+        
+        h1 {
+            font-weight: 700;
+        }
+        /* 头部导航区域 */
+        
+        .navbar {
+            margin-bottom: 0;
+            padding: 0 20px;
+            overflow: hidden;
+        }
+        
+        .navbar-brand {
+            width: 150px;
+            height: 100px;
+        }
+        
+        .navbar-brand img {
+            width: 100%;
+        }
+        
+        .navbar-collapse {
+            padding: 30px 0;
+        }
+        
+        .buy {
+            font-weight: 700;
+            color: orange !important;
+        }
+        
+        .navbar-collapse {
+            font-size: 1.25em;
+        }
+        
+        .navbar-toggle {
+            margin-top: 30px;
+        }
+        
+        .VIP {
+            position: relative;
+        }
+        
+        .hot {
+            position: absolute;
+            top: -5px;
+            left: 70px;
+        }
+        /* 轮播区域 */
+        
+        .item {
+            max-height: 700px;
+        }
+        
+        .item img {
+            width: 100%;
+        }
+        
+        #carousel-example-generic {
+            position: relative;
+        }
+        
+        .search {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 99;
+        }
+        
+        .search a {
+            width: 50px;
+            height: 55px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        .glyphicon-camera {
+            position: absolute;
+            top: 15%;
+            left: 5%;
+            font-size: 50px;
+            color: #000;
+        }
+        
+        .glyphicon-search {
+            position: absolute;
+            top: 15%;
+            right: 5%;
+            font-size: 50px;
+            color: #000;
+        }
+        
+        .search input {
+            width: 650px;
+            height: 80px;
+            border-radius: 50px;
+            background-color: rgba(255, 255, 255, .8);
+            outline: none;
+            padding-left: 20%;
+        }
+        /* 近期节日 */
+        
+        .jinqi .ertong,
+        .jinqi .fuqin {
+            width: 30%;
+            /* display: inline-block; */
+            float: left;
+            padding: 10px;
+            position: relative;
+            margin: 80px 0;
+        }
+        
+        .jinqi .duanwu {
+            width: 39%;
+            padding: 10px;
+            position: relative;
+            overflow: hidden;
+            float: left;
+        }
+        
+        .jinqi img {
+            width: 100%;
+        }
+        
+        .jinqi h1 {
+            font-size: 30px;
+            padding-left: 10px;
+            font-weight: 700;
+        }
+        
+        .jinqi .gaizi1 {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, .5);
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .jinqi .gaizi2 {
+            transition: .5s;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, .5);
+            position: absolute;
+            top: 0;
+            left: -1000px;
+            padding: 20px;
+            font-size: 2.3rem;
+            text-indent: 2em;
+            padding-top: 20px;
+        }
+        
+        .jinqi .duanwu:hover .gaizi2 {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .mai {
+            width: 100%;
+            margin: auto;
+        }
+        
+        .mai img {
+            width: 100%;
+        }
+        /* 限时秒杀 */
+        
+        .daojishi {
+            height: 300px;
+            background-color: rgb(241, 237, 237);
+            border: 1px double rgb(229, 57, 53);
+            float: left;
+            text-align: center;
+            border-top: 1px solid rgb(229, 57, 53);
+        }
+        
+        .daojishi .timer {
+            margin-top: 28px;
+            text-align: center;
+            margin-left: 3%;
+        }
+        
+        .daojishi span {
+            float: left;
+            width: 25%;
+            height: 50px;
+            background-color: #605751;
+            color: #fff;
+            font-size: 24px;
+            line-height: 46px;
+        }
+        
+        .daojishi i {
+            /* width: 18px; */
+            width: 10%;
+            float: left;
+            height: 50px;
+            color: #605751;
+            font-size: 30px;
+            font-style: normal;
+            float: left;
+        }
+        
+        .miaosha .item {
+            height: 300px;
+            margin-left: 8px;
+            text-align: center;
+        }
+        
+        .miaosha .item:hover {
+            box-shadow: 0px 0px 5px #000;
+        }
+        
+        .miaosha p {
+            height: 21px;
+            font-size: 21px;
+            color: #605751;
+        }
+        
+        .miaosha .item:hover .go {
+            display: block;
+        }
+        
+        .lipin {
+            transition: 0.5s;
+        }
+        
+        .miaosha .item:hover .lipin {
+            transform: translateY(-10%);
+        }
+        /* 热卖商品 */
+        
+        .thumbnail {
+            border: none;
+        }
+        
+        .thumbnail h3 {
+            text-align: center;
+        }
+        
+        .thumbnail:hover {
+            box-shadow: 0px 0px 5px #000;
+        }
+        
+        .thumbnail p {
+            text-align: center;
+        }
+        
+        .btn {
+            width: 80%;
+            height: 40px;
+            line-height: 30px;
+            background-color: rgb(230, 238, 213);
+            color: rgb(0, 140, 191);
+        }
+        /* 底足 */
+        
+        footer .logo {
+            width: 130px;
+            height: 85px;
+        }
+        
+        footer h3 {
+            font-size: 14px;
+            font-weight: 700;
+        }
+        
+        footer {
+            /* width: 100%; */
+            /* font-family: "微软雅黑"; */
+            background-color: #2e2f34;
+            color: #fff;
+            /* font-size: 16px; */
+            /* margin-top: 50px; */
+        }
+        
+        footer li a {
+            color: #fff;
+            font-size: 12px;
+        }
+        
+        footer li a:hover {
+            color: orange;
+        }
+        
+        .zuo,
+        .zhong,
+        .you {
+            text-align: center;
+            padding: 25px 0;
+        }
+        /* 媒体查询 */
+        
+        @media (max-width: 970px) {
+            .search input {
+                width: 500px;
+                height: 60px;
+            }
+            .glyphicon-camera {
+                top: 25%;
+                left: 8%;
+                font-size: 30px;
+            }
+            .glyphicon-search {
+                top: 25%;
+                right: 3%;
+                font-size: 30px;
+            }
+            .jinqi .gaizi2 {
+                font-size: 1.5rem;
+            }
+            .daojishi,
+            .miaosha .item {
+                height: 200px;
+            }
+            .daojishi {
+                height: 250px;
+            }
+            .ce {
+                display: none;
+            }
+        }
+        
+        @media (max-width:768px) {
+            .search input {
+                width: 300px;
+                height: 40px;
+            }
+            .glyphicon-camera {
+                top: 20%;
+                left: 8%;
+                font-size: 25px;
+            }
+            .glyphicon-search {
+                top: 20%;
+                right: -1%;
+                font-size: 25px;
+            }
+            .jinqi .gaizi2 {
+                font-size: 1rem;
+            }
+            .daojishi,
+            .miaosha .item {
+                height: 300px;
+            }
+            .miaosha .item {
+                height: 400px;
+            }
+            .daojishi {
+                height: 400px;
+            }
+        }
+        
+        @media (max-width:608px) {
+            .miaosha .item {
+                height: 300px;
+            }
+            .daojishi {
+                height: 300px;
+            }
+        }
